@@ -1,0 +1,81 @@
+@import url("framework/css/bootstrap.css");
+@import url("framework examples/headers/headers.css");
+@import url("css/header.css");
+
+@import url("framework examples/carousel/carousel.css");
+
+
+body {
+	cursor: default;
+}
+
+.sub-header {
+	position: fixed;
+	z-index: 1030;
+	left: 0;
+	right: 0;
+	font-size: 1rem;
+}
+
+.corps-de-la-page {
+	margin-left: 8vw;
+	margin-right: 8vw;
+	font-size: 1.15rem;
+}
+
+#btn-call-to-action {
+	background-color: rgba(38, 182, 218, 0.751);
+}
+
+#change-slide-buttonn {
+	background-color: rgb(38, 182, 218);
+}
+
+.article-image:hover, .promotion-image:hover {
+	transition: 300ms;
+	transform: scale(95%);
+}
+
+.theme-color {
+	color: rgba(38, 182, 218, 0.871);
+}
+
+#theme-color {
+	color: rgba(38, 182, 218, 0.871);
+}
+
+#x-flex {
+	flex-direction: row;
+}
+
+.mini-text {
+	font-size: 1rem;
+	margin-top: -0.25rem;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	overflow-x: auto;
+	overflow-y: auto;
+	top: 50%;
+	left: 50%;
+	max-width: 30%;
+	max-height: 80%;
+	transform: translate(-50%, -50%);
+	border-radius: 0.25rem;
+	padding: 20px;
+	z-index: 1000;
+}
+
+
+.overlay {
+	display: none;
+	position: fixed;
+	background-color: rgba(22, 22, 22, 0.969);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
